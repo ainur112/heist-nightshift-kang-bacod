@@ -1,0 +1,20 @@
+* { box-sizing: border-box; }
+html, body {
+  margin: 0;
+  height: 100%;
+  background: #05070f;
+  overflow: hidden;
+  font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
+}
+body { display: flex; align-items: center; justify-content: center; }
+#stage {
+  display: block;
+  width: min(100vw, 177.777vh);
+  height: auto;
+  aspect-ratio: 16 / 9;
+  background: #070b18;
+  image-rendering: auto;
+  outline: 1px solid #163044;
+  box-shadow: 0 0 60px rgba(0, 180, 200, 0.08);
+  cursor: crosshair;
+}
