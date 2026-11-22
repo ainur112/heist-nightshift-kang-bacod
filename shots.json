@@ -1,0 +1,6 @@
+[
+  { "name": "01-cover.png", "query": "?scene=cover&level=0" },
+  { "name": "02-routes.png", "query": "?scene=routes&level=1" },
+  { "name": "03-gadget.png", "query": "?scene=gadget&level=0" },
+  { "name": "04-extract.png", "query": "?scene=extract&level=2" }
+]
